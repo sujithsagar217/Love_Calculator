@@ -1,24 +1,30 @@
 body {
   background-color: pink;
+}
 
+h2 {
+  margin: 0;
 }
-h2{
-  margin:0;
+
+.answer {
+  color: #c70039;
+  font-size: 2rem;
 }
+
 .heading {
-  display: inline;
-  margin: auto;
-}
-
-.row{
+  display: inline-block;
   text-align: center;
-font-family: 'Montserrat', sans-serif;
-font-weight: bold;
+  margin-top: 30px;
 }
 
-.main-heading{
-    color: #d8345f;
-    font-size: 4.35rem;
+.row {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
 
-    font-family: 'Sacramento', cursive;
+.main-heading {
+  color: #d8345f;
+  font-size: 3.3rem;
+  font-family: 'Sacramento', cursive;
 }
