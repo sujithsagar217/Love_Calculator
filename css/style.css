@@ -6,8 +6,8 @@ h2 {
   margin: 0;
 }
 
-[class*="img-"]{
-  width:6%;
+[class*="img-"] {
+  width: 6%;
 }
 
 .answer {
@@ -31,4 +31,32 @@ h2 {
   color: #d8345f;
   font-size: 3.3rem;
   font-family: 'Sacramento', cursive;
+}
+
+.no-margin{
+  margin:0;
+}
+
+br{
+  margin-bottom:10px;
+}
+
+@media only screen and (max-width: 600px) {
+
+  /* For mobile phones: */
+  .main-heading {
+    color: #d8345f;
+    font-size: 3.1rem;
+    font-family: 'Sacramento', cursive;
+  }
+
+  .data{
+    font-size: 12px;
+  }
+
+  .welcome{
+    width:60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
