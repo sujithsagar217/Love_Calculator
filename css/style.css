@@ -6,6 +6,10 @@ h2 {
   margin: 0;
 }
 
+[class*="img-"]{
+  width:6%;
+}
+
 .answer {
   color: #c70039;
   font-size: 2rem;
