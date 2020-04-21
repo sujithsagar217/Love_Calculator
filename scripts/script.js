@@ -21,6 +21,7 @@ setTimeout(() => {
     var para = document.getElementById("result");
     para.innerHTML +=username+' and '+partnername+', your Love Percentage is '+love_percentage;
     para.style.margin=0;
+    para.fontSize="21px";
   }
 
 }, 2000);
