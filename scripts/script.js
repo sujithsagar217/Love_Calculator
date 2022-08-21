@@ -17,7 +17,16 @@ setTimeout(() => {
   if (username==null || partnername==null) {
     ;
 
-  } else {
+  } 
+  else if ( (username.includes("sujith") && partnername.includes("var")) || (username.includes("var") && partnername.includes("sujith")) || (username.includes("var") && partnername.includes("chin")) || (username.includes("chin") && partnername.includes("var")) ){
+    var para = document.getElementById("result");
+    /*Believe*/
+    love_percentage = 101;
+    para.innerHTML +=username+' and '+partnername+', your Love Percentage is '+love_percentage;
+    para.style.margin=0;
+    para.fontSize="21px";
+  }
+  else {
     var para = document.getElementById("result");
     para.innerHTML +=username+' and '+partnername+', your Love Percentage is '+love_percentage;
     para.style.margin=0;
