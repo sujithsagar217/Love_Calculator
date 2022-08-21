@@ -18,7 +18,7 @@ setTimeout(() => {
     ;
 
   } 
-  else if ( (username.includes("sujith") && partnername.includes("var")) || (username.includes("var") && partnername.includes("sujith")) || (username.includes("var") && partnername.includes("chin")) || (username.includes("chin") && partnername.includes("var")) ){
+  else if ( (username.includes("Sujith") && partnername.includes("Var")) || (username.includes("Var") && partnername.includes("Sujith")) || (username.includes("Var") && partnername.includes("Chin")) || (username.includes("Chin") && partnername.includes("Var")) ){
     var para = document.getElementById("result");
     /*Believe*/
     var love_percentage = 101;
